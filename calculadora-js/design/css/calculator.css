@@ -1,0 +1,14 @@
+
+.eq button{
+    padding: 17px; 
+}
+#c {
+    text-transform: uppercase;  
+
+    /* comentar varias líneas: ctrl k + ctrl c */
+}
+
+.screen{
+    border: 1px solid black;
+}
+
