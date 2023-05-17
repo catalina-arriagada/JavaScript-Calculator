@@ -40,8 +40,6 @@ buttons.forEach(btn => {
             screen.textContent += btnPress; //si no hay 0 entonces agrega al lado el contenido
         }
     });
-
-    
 });
 
 //que haga cierta funcion cuando APRETEMOS EL TECLADO 
@@ -216,9 +214,9 @@ document.addEventListener("keydown", function (event){
             }
             return;
         }
-
     }
 
     numbers();
 
+    //commit test
 })
