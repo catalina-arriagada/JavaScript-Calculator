@@ -1,20 +1,111 @@
+/* comentar varias líneas: ctrl k + ctrl c */
 
-.eq button{
-    padding: 17px; 
+/*622x661*/
+.body {
+    width: 622px;
+    height: 661px;
+    background-color: #090c31;
 }
-#c {
-    text-transform: uppercase;  
 
-    /* comentar varias líneas: ctrl k + ctrl c */
+.calculator {
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 75px;
+    margin-left: 500px;
+    width: 350px;
+    height: 504px;
+    background-color: #15173c;
+    color: white;
 }
 
+/*350x504*/
+.container > .screen{
+    border: 1px solid black;
+    margin-left: 9px; 
+    font-weight: 600;  
+}
+
+/*302x85*/
 .screen{
     border: 1px solid black;
+    background-color: #090c31;
+    width: 302px;
+    height: 85px;
+    margin: 30px;
+    padding: 30px;
+    padding-left: 220px;
+    font-family: monospace;
+    font-weight: 600;
+    border-radius: .5rem;
 }
 
-/*commit test 
-*/
-body {
-    background-color: red;
+/*278x315*/
+.buttons {
+    width: 278px;
+    height: 315px;
+    margin-left: 23px;
 }
 
+.col button{
+    color: white;
+    margin: 5.3px;
+    border-radius: .5rem;
+    font-weight: 300; 
+}
+
+.col button:hover {
+    color: white;
+    border: 1px solid black;
+    background-color: #090c31;
+}
+
+#c {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-right: 12.74px;
+    padding-left: 10px;
+}
+
+#delete{
+    padding-right: 8.84px;
+    padding-left: 10px;
+}
+
+#plus {
+    margin-bottom: 20px;
+}
+
+#minus {
+    margin-bottom: 20px;
+    padding-right: 12px;
+    padding-left: 15px;
+}
+
+#multiplication {
+    padding-right: 12px;
+    padding-left: 15px;
+}
+
+#division {
+    padding-right: 12px;
+    padding-left: 15px;
+}
+
+#zero {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#equal{
+    padding-top: 35px;
+    padding-bottom: 30px; 
+    background-color: #e65766;
+}
+
+#period {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

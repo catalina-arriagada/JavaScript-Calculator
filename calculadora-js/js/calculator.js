@@ -1,5 +1,5 @@
 //1. Crear constantes de la pantalla y todos los botones- seleccionar clase screen y todos los elementos de la clase button con nombre buttons
-const screen = document.querySelector(".screen");
+const screen = document.querySelector(".zeroScreen");
 const buttons = document.querySelectorAll(".btn");
 
 //cuando apretamos botones pasan cosas si los llamamos con adeventlistener
@@ -40,6 +40,8 @@ buttons.forEach(btn => {
             screen.textContent += btnPress; //si no hay 0 entonces agrega al lado el contenido
         }
     });
+
+    
 });
 
 //que haga cierta funcion cuando APRETEMOS EL TECLADO 
@@ -214,9 +216,8 @@ document.addEventListener("keydown", function (event){
             }
             return;
         }
+
     }
-
+    
     numbers();
-
-    //commit test
 })
