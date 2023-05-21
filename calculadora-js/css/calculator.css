@@ -1,0 +1,159 @@
+/* comentar varias líneas: ctrl k + ctrl c */
+
+/*622x661*/
+.body {
+    width: 622px;
+    height: 661px;
+    background-color: #090c31;
+}
+
+/*350x504 desktop*/
+.calculator {
+    width: 350px;
+    border: 1px solid white;
+    background-color: #15173c;
+    color: white;
+    border-radius: 15px;
+}
+
+.container > .screen{
+    margin-left: 9px; 
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+/*302x85*/
+.screen{
+    width: 302px;
+    height: 85px;
+    margin: 30px;
+    padding: 30px;
+    padding-left: 220px;
+    font-weight: 600;
+    border-radius: .5rem;
+    border: 1px solid black;
+    background-color: #090c31;
+    font-family: monospace;
+}
+
+/*278x315*/
+.buttons {
+    width: 278px;
+    height: 315px;
+    margin-left: 23px;
+}
+
+.col button{
+    margin: 5.3px;
+    border-radius: .5rem;
+    font-weight: 300; 
+    color: white;
+}
+
+#c {
+    margin-bottom: 10px;
+    padding-right: 12.74px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+#delete{
+    padding-right: 8.84px;
+    padding-left: 10px;
+}
+
+#plus {
+    margin-bottom: 20px;
+}
+
+#minus {
+    margin-bottom: 20px;
+    padding-right: 12px;
+    padding-left: 15px;
+}
+
+#multiplication {
+    padding-right: 12px;
+    padding-left: 15px;
+}
+
+#division {
+    padding-right: 12px;
+    padding-left: 15px;
+}
+
+#zero {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#equal{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #e65766; 
+}
+
+#period {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col button:hover {
+    color: white;
+    border: 1px solid black;
+    background-color: #090c31;
+}
+
+/*ultra smart*/
+@media only screen and (max-width: 600px) {
+    .calculator {
+        margin: 150px;
+        margin-left: 20px;
+        height: 450px;    
+    }
+}
+
+@media only screen and (min-width: 530px) {
+
+    .calculator {
+        margin: 150px;
+        margin-left: 100px;
+    }
+}
+
+/*smartphone*/
+@media only screen and (min-width: 600px) {
+
+    .calculator {
+        margin-left: 120px;
+    }
+}
+
+/*tablets*/
+
+@media only screen and (min-width: 700px) {
+
+    .calculator {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    .calculator {
+        margin-left: 250px;
+        height: 504px;
+    }
+}
+
+/*desktop*/
+@media only screen and (min-width: 992px) {
+
+    .calculator {
+        margin: 75px;
+        margin-left: 500px;
+    }
+}
+
